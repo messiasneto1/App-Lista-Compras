@@ -26,6 +26,11 @@
     --text-logo: 1.7rem/2.5 'Sora', sans-serif;
 }
 
+body{
+    background-color: var(--bg-primary);
+}
+    
+
 h1{
     font: var(--text-logo);
     color: var(--content-secondary);
@@ -40,8 +45,8 @@ h2{
     display: flex;
 }
 
-.gap-1{
-    gap: 1rem;
+.gap-\.5{
+    gap: .5rem;
 }
 
 .center{
@@ -51,6 +56,12 @@ h2{
 
 .only-desktop{
     display: none;
+}
+
+@media (width >= 80em){
+    .only-desktop{
+        display: flex;
+    }
 }
 
 

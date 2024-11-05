@@ -1,0 +1,43 @@
+main {
+    margin-left: 2rem;
+    margin-top: 2.75rem;
+    & .add {
+        display: inline;
+        & input {
+            height: 44px;
+            width: 451px;
+            padding: .75rem 1.125rem;
+            border-radius: 12px;
+        }
+        & button {
+            height: 44px;
+            width: 160px;
+            border-radius: 12px;
+        }
+    }
+    & ul {
+        width: 627px;
+        margin-top: 2.5rem;
+        list-style: none;
+        display: grid;
+        gap: 0.75rem;
+        & li {
+            border-radius: .5rem;
+            background-color: var(--bg-secondary);
+            position: relative;
+            display: flex;
+            align-items: center;
+            & input {
+                margin: 1rem;
+            }
+            & label {
+                font: var(--text);
+            }
+            & img {
+                position: absolute;
+                right: 1rem;
+            }
+        }
+        
+    }
+}
