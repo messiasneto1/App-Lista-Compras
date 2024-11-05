@@ -10,47 +10,58 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <header>
-        <div class="center gap-.5 only-desktop">
-            <img src="assets/logo.svg" alt="">
-            <H1>quicklist</H1>
-        </div>
-        <div class="top">
-            <div class="back">
-                <img src="assets/arrow-left-02.svg" alt="">
-                <span>Voltar</span>
+    <div class="app">
+        <header>
+            <div class="only-desktop">
+                <div class="logo-wrapper">
+                    <H1 id="logo gap-.5">
+                        <img src="assets/logo.svg" alt="">
+                        quicklist
+                    </H1>
+                </div>
             </div>
-            <H2>Compras da semana</H2>
-        </div>
-    </header>
-    <main>
-        <div class="add">
-            <input type="text" placeholder="Adicione um novo item">
-            <button>Adicionar item</button>
-        </div>
-        <ul>
-            <li>
-                <input type="checkbox" id="item1">
-                <label for="item1">Pão de forma</label>
-                <img src="assets/delete-icon.svg" alt="">
-            </li>
-            <li>
-                <input type="checkbox" id="item2">
-                <label for="item2">Café preto</label>
-                <img src="assets/delete-icon.svg" alt="">
-            </li>
-            <li>
-                <input type="checkbox" id="item3">
-                <label for="item3">Suco de laranja</label>
-                <img src="assets/delete-icon.svg" alt="">
-            </li>
-            <li>
-                <input type="checkbox" id="item4">
-                <label for="item4">Bolacha</label>
-                <img src="assets/delete-icon.svg" alt="">
-            </li>
-        </ul>
-    </main>
+            <div class="top">
+                <div class="back">
+                    <img src="assets/arrow-left-02.svg" alt="">
+                    <span>Voltar</span>
+                </div>
+                <H2>Compras da semana</H2>
+            </div>
+        </header>
+        <main>
+            <div class="add">
+                <input type="text" placeholder="Adicione um novo item">
+                <button>Adicionar item</button>
+            </div>
+            <ul>
+                <li>
+                    <input type="checkbox" id="item1">
+                    <label for="item1">Pão de forma</label>
+                    <img src="assets/delete-icon.svg" alt="">
+                </li>
+                <li>
+                    <input type="checkbox" id="item2">
+                    <label for="item2">Café preto</label>
+                    <img src="assets/delete-icon.svg" alt="">
+                </li>
+                <li>
+                    <input type="checkbox" id="item3">
+                    <label for="item3">Suco de laranja</label>
+                    <img src="assets/delete-icon.svg" alt="">
+                </li>
+                <li>
+                    <input type="checkbox" id="item4">
+                    <label for="item4">Bolacha</label>
+                    <img src="assets/delete-icon.svg" alt="">
+                </li>
+            </ul>
+            <div class="warning">
+                <img src="assets/warning-circle.svg" alt="">
+                <span>O item foi removido da lista</span>
+                <img src="assets/close-icon.svg" alt="">
+            </div>
+        </main>
+    </div>
     <link rel="stylesheet" href="scripts.js">
 </body>
 </html>
