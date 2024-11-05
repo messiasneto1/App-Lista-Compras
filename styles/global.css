@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-primary: #F4F5FB;
+    --bg-secondary: white;
+
+    --color-brand:#CA3884;
+    --color-brand-hover:#A52C6B;
+    --color-danger: #C93847;
+
+    --content-primary:#080B12;
+    --content-secondary:#374151;
+    --content-tertiary:#9CA3AF;
+
+    --border-primary:#D1D5DB;
+    --border-hover:#B9C2D0;
+
+    --text: 500 1rem/1.25 'Inter', sans-serif;
+    --text-sm: 500 0.875rem/1 'Inter', sans-serif;
+    --text-lg: 600 1.25rem/1.25 'Inter', sans-serif;
+    --text-xl: 700 1.5rem/2 'Inter', sans-serif;
+    --text-logo: 1.7rem/2.5 'Sora', sans-serif;
+}
+
+h1{
+    font: var(--text-logo);
+    color: var(--content-secondary);
+}
+
+h2{
+    font: var(--text-xl);
+    color: var(--content-primary);
+}
+
+.flex{
+    display: flex;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.only-desktop{
+    display: none;
+}
+
+
