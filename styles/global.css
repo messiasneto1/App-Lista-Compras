@@ -61,6 +61,10 @@ h2{
     display: none;
 }
 
+.hidden{
+    display: none;
+}
+
 @media (width >= 80em){
     .only-desktop{
         display: flex;

@@ -34,31 +34,33 @@
                 <button type="button">Adicionar item</button>
             </div>
             <ul>
-                <li>
+                <li class="item">
                     <input type="checkbox" id="item1">
                     <label for="item1">Pão de forma</label>
                     <img src="assets/delete-icon.svg" alt="">
                 </li>
-                <li>
+                <li class="item">
                     <input type="checkbox" id="item2">
                     <label for="item2">Café preto</label>
                     <img src="assets/delete-icon.svg" alt="">
                 </li>
-                <li>
+                <li class="item">
                     <input type="checkbox" id="item3">
                     <label for="item3">Suco de laranja</label>
                     <img src="assets/delete-icon.svg" alt="">
                 </li>
-                <li>
+                <li class="item">
                     <input type="checkbox" id="item4">
                     <label for="item4">Bolacha</label>
                     <img src="assets/delete-icon.svg" alt="">
                 </li>
             </ul>
-            <div id="warning">
-                <img src="assets/warning-circle.svg" alt="">
-                <span>O item foi removido da lista</span>
-                <img src="assets/close-icon.svg" alt="">
+            <div id="warning-box" class="hidden">
+                <div class="warning">
+                    <img src="assets/warning-circle.svg" alt="">
+                    <span>O item foi removido da lista</span>
+                    <img id="close-warning-button" src="assets/close-icon.svg" alt="">
+                </div>
             </div>
         </main>
     </div>
